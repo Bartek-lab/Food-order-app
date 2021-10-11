@@ -1,0 +1,14 @@
+.header {
+  margin: 0;
+  height: 4rem;
+  background: rgb(170, 73, 73);
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 0;
+  padding-top: 1rem;
+  margin-left: 10%;
+}

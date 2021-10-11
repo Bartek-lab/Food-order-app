@@ -1,0 +1,11 @@
+.mealsDescription {
+  background: grey;
+  max-width: 50rem;
+  margin: auto;
+  min-height: 10rem;
+  border-radius: 20px;
+}
+
+p {
+  padding: 2rem;
+}

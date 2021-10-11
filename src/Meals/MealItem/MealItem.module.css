@@ -1,0 +1,8 @@
+.mealList {
+  display: flex;
+  justify-content: space-between;
+}
+.mealInfo {
+  list-style: none;
+  display: block;
+}
