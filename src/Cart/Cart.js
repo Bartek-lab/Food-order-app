@@ -16,6 +16,8 @@ const Cart = (props) => {
     ctx.onAddItem({ ...item, amount: 1 });
   };
 
+  const totalAmount = ctx.totalAmount.toFixed(2);
+
   return (
     <Modal onClose={props.hideCartModal}>
       <div className={classes.cart}>
@@ -33,11 +35,13 @@ const Cart = (props) => {
             );
           })}
         </ul>
+        <p>{totalAmount}</p>
         <button onClick={props.hideCartModal}>Close</button>
         <button>Order</button>
       </div>
     </Modal>
   );
 };
+``;
 
 export default Cart;
