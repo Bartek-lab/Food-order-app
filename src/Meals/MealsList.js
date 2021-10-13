@@ -39,6 +39,7 @@ const MealsList = (props) => {
       />
     );
   });
+
   return (
     <div>
       <ul>{availableMeals}</ul>

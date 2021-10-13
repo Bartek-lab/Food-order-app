@@ -1,14 +1,23 @@
 import { Fragment } from "react";
-import MealsDescription from "./MealsDescription";
-import MealsList from "./MealsList";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Card from "../UI/Card";
+import MealsNav from "../UI/MealsNav";
+import MealsList from "./MealsList";
+import DrinksList from "./DrinksList";
+import AppetizersList from "./AppetizersList";
 
 const Meals = (props) => {
   return (
     <Fragment>
-      <MealsDescription />
       <Card>
-        <MealsList />
+        <Router>
+          <MealsNav />
+          <Switch>
+            <Route path="/meals/main_meals" component={MealsList} />
+            <Route path="/meals/appetizers" component={AppetizersList} />
+            <Route path="/meals/drinks" component={DrinksList} />
+          </Switch>
+        </Router>
       </Card>
     </Fragment>
   );

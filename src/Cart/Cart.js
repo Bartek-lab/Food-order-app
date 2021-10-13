@@ -42,6 +42,4 @@ const Cart = (props) => {
     </Modal>
   );
 };
-``;
-
 export default Cart;
