@@ -3,7 +3,7 @@ import classes from "./Nav.module.css";
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className={classes.nav}>
       <ul className={classes.navLinks}>
         <Link to="/">
           <li>Home</li>

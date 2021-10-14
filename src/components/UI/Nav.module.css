@@ -1,0 +1,16 @@
+.nav {
+  max-width: 50rem;
+  margin: auto;
+  justify-content: space-around;
+}
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.navLinks li p {
+  text-decoration: none;
+  color: black;
+}
