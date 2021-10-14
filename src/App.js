@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
+import classes from "./App.module.css";
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 import Cart from "./components/Cart/Cart";
@@ -22,16 +22,22 @@ function App() {
 
   return (
     <CartProvider>
-      {CartModalIsShown && <Cart hideCartModal={hideCartModalHandler} />}
-      <Header onShowCart={showCartModalHandler} />
-      <Router>
-        <Nav />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/description" component={MealsDescription} />
-          <Route path="/meals" component={Meals} />
-        </Switch>
-      </Router>
+      <div className={classes.mainSection}>
+        {CartModalIsShown && <Cart hideCartModal={hideCartModalHandler} />}
+        <Header onShowCart={showCartModalHandler} />
+        <Router>
+          <div>
+            <Nav className={classes.mainNav} />
+          </div>
+          <div>
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/description" component={MealsDescription} />
+              <Route path="/meals" component={Meals} />
+            </Switch>
+          </div>
+        </Router>
+      </div>
     </CartProvider>
   );
 }

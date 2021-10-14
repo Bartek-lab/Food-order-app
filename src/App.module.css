@@ -1,0 +1,13 @@
+.mainSection {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainNav {
+  height: auto;
+}
+.header {
+  padding-top: 10rem;
+}

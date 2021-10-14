@@ -1,5 +1,5 @@
 import MealItem from "./MealItem/MealItem";
-
+import classes from "./MealsList.module.css";
 const DUMMY_MEALS = [
   {
     name: "Dumplings",

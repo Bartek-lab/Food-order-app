@@ -1,10 +1,12 @@
 import classes from "./Home.module.css";
-
+import Card from "../UI/Card";
 const Home = () => {
   return (
-    <div className={classes.home}>
-      <h1>Home</h1>
-    </div>
+    <Card>
+      <div className={classes.home}>
+        <h1>Home</h1>
+      </div>
+    </Card>
   );
 };
 

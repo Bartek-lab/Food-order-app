@@ -3,7 +3,7 @@ import classes from "./MealsNav.module.css";
 
 const MealsNav = () => {
   return (
-    <nav>
+    <nav className={classes.mealNav}>
       <ul className={classes.navLinks}>
         <Link to="/meals/main_meals">
           <li>Main Meals</li>
