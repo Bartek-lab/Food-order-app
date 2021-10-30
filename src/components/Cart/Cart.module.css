@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
+
+.cart {
+  position: relative;
+  width: 20rem;
+  min-height: 10rem;
+  max-height: 25rem;
+  overflow-y: scroll;
+  background: white;
+  border-radius: 20px;
+  font-family: Poppins, sans-serif;
+}
+
+.cart h2 {
+  text-align: center;
+  padding: 0.5rem;
+}
+.itemsBox {
+  min-height: 8rem;
+}
+.totalPrice {
+  width: 17rem;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.emptyInfo {
+  padding: 0;
+  padding-top: 1rem;
+  text-align: center;
+  font-weight: 300;
+}
+.submitBox {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.orderButton {
+  height: 1.5rem;
+  width: 4.5rem;
+  background-color: #038c73;
+  color: black;
+  border-style: none;
+  border-radius: 20px;
+  margin-right: 0.6rem;
+}
+
+.closeButton {
+  height: 1.5rem;
+  width: 4.5rem;
+  background-color: #038c73;
+  color: black;
+  border-style: none;
+  border-radius: 20px;
+}

@@ -1,0 +1,69 @@
+.bestOffersSection {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.bestOffersBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  overflow-y: hidden;
+  padding: 0 0 2rem 0;
+  margin-top: 2rem;
+  width: auto;
+}
+.bestDrinksOffersBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  overflow-y: hidden;
+  padding: 0 0 2rem 0;
+  margin: 2rem 0 2rem 0;
+  width: auto;
+}
+
+.bestOffersSection h3 {
+  padding: 1rem 0 0 0.5rem;
+}
+.description {
+  padding: 1rem 0 0 0.5rem;
+}
+
+@media only screen and (min-width: 749px) {
+  .bestOffersSection {
+    min-height: 70vh;
+  }
+  .bestOffersBox {
+    display: flex;
+    justify-content: center;
+  }
+  .bestDrinksOffersBox {
+    display: flex;
+    justify-content: center;
+  }
+  .bestOffersSection h3 {
+    text-align: center;
+  }
+  .bestOffersSection p {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mealsDescription {
+    min-height: 90vh;
+  }
+  .bestOffersSection h3 {
+    font-size: 1.5rem;
+  }
+  .bestOffersSection p {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  .bestOffersBox {
+    overflow-y: hidden;
+  }
+  .bestDrinksOffersBox {
+    overflow-y: hidden;
+  }
+}

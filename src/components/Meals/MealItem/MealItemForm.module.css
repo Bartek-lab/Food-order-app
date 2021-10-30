@@ -1,0 +1,39 @@
+.mealItemForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 1rem;
+  max-height: 1.2rem;
+  margin-top: 0.5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input {
+  height: 1.2rem;
+  max-height: 50px;
+  width: 2rem;
+  font-size: 16px;
+}
+
+.addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #038c73;
+  border-style: none;
+  border-radius: 50%;
+  height: 1.2rem;
+  width: 1.2rem;
+  font-size: 1rem;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.addButton p {
+  padding: 0;
+}

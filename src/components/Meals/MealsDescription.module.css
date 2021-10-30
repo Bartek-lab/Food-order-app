@@ -1,0 +1,64 @@
+.mealsDescription {
+  padding: 0.9rem 0.9rem 0 0.9rem;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#e5efed, white);
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  padding: 0.8rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+}
+.line {
+  width: 100px;
+  height: 2px;
+  border-radius: 20px;
+  align-self: center;
+  margin: 1rem;
+  border: 3px solid;
+  color: #038c73;
+}
+
+p {
+  margin-top: 0;
+  padding: 0.9rem 2rem 1rem 2rem;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 749px) {
+  .mealsDescription {
+    min-height: 55vh;
+    height: 50vh;
+    padding: 1rem 0 1rem 0;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
+  .mealsDescription {
+    width: 100vw;
+    justify-content: center;
+  }
+  p {
+    font-size: 1rem;
+    padding: 1rem;
+    width: 75vw;
+    align-self: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mealsDescription {
+    min-height: 90vh;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
