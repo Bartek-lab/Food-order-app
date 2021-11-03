@@ -12,6 +12,7 @@ React Hooks in this projects:
 - useEffect,
 - useContext,
 - useRef,
+- useReducer.
  
 I also used Router and Fragment. Design was made for mobile first. The data is "dummy" hard coded  especially for this project.
 
