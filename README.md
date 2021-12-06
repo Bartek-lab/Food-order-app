@@ -5,7 +5,7 @@ To start this application on your server just fetch code and run npm start.
 But it's not required, you can simply check it here : https://infallible-saha-152a89.netlify.app/
 
 This is my first React Js project, which teached me a lot new stuff. I learned what is ReactJs and what are these famous components.
-After this project I trully felt in love in React. It's really clean and straight forward. Ability to make separate components it's just awesome thing.
+After this project I trully fell in love in React. It's really clean and straight forward. Ability to make separate components it's just awesome thing.
 
 React Hooks in this projects:
 - useState,
